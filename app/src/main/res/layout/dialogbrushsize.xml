@@ -13,7 +13,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/ib_medium_brush"/>
-
     <ImageButton
         android:id="@+id/ib_medium_brush"
         android:layout_width="wrap_content"
@@ -24,7 +23,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/ib_large_brush"/>
-
     <ImageButton
         android:id="@+id/ib_large_brush"
         android:layout_width="wrap_content"
@@ -35,35 +33,4 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
-
-<!--    <ImageButton-->
-<!--        android:id="@+id/smallbrush"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:src="@drawable/small"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/mediumbrush"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
-
-<!--    <ImageButton-->
-<!--        android:id="@+id/mediumbrush"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:src="@drawable/medium"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/smallbrush"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/largebrush"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
-
-<!--    <ImageButton-->
-<!--        android:id="@+id/largebrush"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:src="@drawable/large"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/mediumbrush"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
-
 </androidx.constraintlayout.widget.ConstraintLayout>
